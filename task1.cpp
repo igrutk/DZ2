@@ -3,10 +3,13 @@
 using namespace std;
 
 int main() {
-	cout << "Task 1" << endl;
-	int x1 = 4;
-	int x2 = 3;
-	cout << "Before swap ( " << x1 << " ; " << x2 << " )" << endl;
+	cout << "Enter x1";
+	int x1 = 0;
+	cin >> x1;
+	cout << "Enter x2";
+	int x2 = 0;
+	cin >> x2;
+	cout << "Before ( " << x1 << " ; " << x2 << " )" << endl;
 	swap(&x1, &x2);
-	cout << "After swap ( " << x1 << " ; " << x2 << " )" << endl;
+	cout << "After ( " << x1 << " ; " << x2 << " )" << endl;
 }

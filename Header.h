@@ -25,3 +25,7 @@ int local_min(T arr7[], int n7) {
 	}
 	return counter;
 }
+// Task 9
+void selectionSort_descending(int* arr, int idx_start, int idx_end);
+
+void selectionSort_ascending(int* arr, int idx_start, int idx_end);

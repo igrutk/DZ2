@@ -11,3 +11,17 @@ void swap(T* p_a, T* p_b) {
 }
 //задание 4
 void selectionSort(double* arr, int arrSize, int* counter);
+
+// задание 6
+void array_change_halfs(double* array, int n_2);
+
+// задание 7
+template <typename T>
+int local_min(T arr7[], int n7) {
+	int counter = 0;
+	for (int i = 0; i < n7 - 1; i++) {
+		if (arr7[i] < arr7[i - 1] && arr7[i] < arr7[i + 1])
+			counter++;
+	}
+	return counter;
+}
